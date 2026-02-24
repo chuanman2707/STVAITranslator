@@ -69,5 +69,8 @@ Dự án được xây dựng với mục tiêu giúp cộng đồng đọc truy
 
 Mọi đóng góp, báo lỗi hoặc yêu cầu tính năng mới vui lòng tạo **Issue** tại repository này.
 
+## 📝 License
+Dự án này được phát hành dưới bản quyền [MIT License](./LICENSE). Bạn có quyền tự do sử dụng, chỉnh sửa và phân phối lại mã nguồn này.
+
 ---
 **Disclaimer**: Script này được tạo ra cho mục đích học tập và hỗ trợ cá nhân. Tác giả không chịu trách nhiệm về bất kỳ hành vi vi phạm điều khoản sử dụng của bên thứ ba nào.
