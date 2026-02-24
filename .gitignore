@@ -1,5 +1,6 @@
 .agent/
 .DS_Store
+docs/
 node_modules/
 dist/
 *.log
