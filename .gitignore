@@ -1,0 +1,11 @@
+.agent/
+.DS_Store
+node_modules/
+dist/
+*.log
+.gemini/
+.system_generated/
+brain/
+task.md
+walkthrough.md
+implementation_plan.md
