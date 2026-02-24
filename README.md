@@ -23,7 +23,7 @@ Một script Tampermonkey giúp "hack" nội dung truyện trên sangtacviet.com
 
 ##  Hướng dẫn cài đặt CLIProxyAPI (Để dùng AI miễn phí)
 
-Để sử dụng các model AI mạnh mẽ hoàn toàn miễn phí (qua cơ chế OAuth/Codex), bạn cần chạy một proxy nhỏ trên máy tính của mình.
+Để sử dụng các model AI mạnh mẽ hoàn toàn miễn phí (qua cơ chế OAuth), bạn cần chạy một proxy nhỏ trên máy tính của mình.
 
 ### 1. Cài đặt CLIProxyAPI
 1. Tải và cài đặt **Node.js** (phiên bản 18 trở lên).
@@ -50,7 +50,7 @@ Khi thấy dòng chữ `Server is running on http://localhost:8317`, bạn đã 
 3. Nhập các thông tin sau:
    - **API Endpoint URL**: `http://localhost:8317/v1/chat/completions`
    - **Model Name**: `gemini/gemini-3.0-flash` (Hoặc model bạn muốn).
-   - **API Key**: Để trống (Vì Proxy đã xử lý Token qua lệnh login).
+   - **API Key**: Nhập API key lúc config CLIProxyAPI.
 4. Bấm **Lưu** và tận hưởng!
 
 ##  Cấu hình API
@@ -62,7 +62,7 @@ Sau khi cài đặt, bạn sẽ thấy nút **⚙️** ở góc phải dưới m
     - Nếu dùng Local Proxy (CLIProxyAPI): `http://localhost:8317/v1/chat/completions`
 - **Model Name**: 
     - Google Gemini: `gemini-3.0-flash`
-- **System Prompt**: Nơi bạn ép AI phải dịch theo phong cách mong muốn. (Em đã để sẵn mẫu văn phong Kiếm Hiệp cực mượt).
+- **System Prompt**: Nơi bạn ép AI phải dịch theo phong cách mong muốn.
 
 ## 🛠️ Phát triển & Đóng góp
 Dự án được xây dựng với mục tiêu giúp cộng đồng đọc truyện CV (Convert) tiếp cận với bản dịch AI chất lượng cao mà không bị phụ thuộc vào API cứng của website. 
